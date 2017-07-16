@@ -1,3 +1,24 @@
+@-webkit-keyframes spinAround {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg)
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+@keyframes spinAround {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg)
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -38,7 +59,7 @@ a {
 
 .content-container {
   max-width: 48rem;
-  padding: 5rem 1rem;
+  padding: 6rem 1rem 2rem;
   margin-left:  auto;
   margin-right: auto;
 
@@ -54,52 +75,6 @@ a {
 .header {
   padding: 2%;
   margin-bottom: 1.5em;
-
-  &.nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 0 1vw;
-    box-shadow: 0 0 1px rgba(0,0,0,0.3);
-
-    .nav-left{
-      align-items: stretch;
-      display: flex;
-      flex-basis: 0;
-      flex-grow: 1;
-      flex-shrink: 0;
-      justify-content: flex-start;
-      overflow: hidden;
-      overflow-x: auto;
-      white-space: nowrap;
-    }
-    .nav-right{
-      align-items: stretch;
-      display: flex;
-      flex-basis: 0;
-      flex-grow: 1;
-      flex-shrink: 0;
-      justify-content: flex-end;
-    }
-
-    .nav-menu {
-      .nav-item {
-        align-items: center;
-        display: flex;
-        flex-grow: 0;
-        flex-shrink: 0;
-        justify-content: center;
-        padding: 10px;
-      }
-
-      .nav-item a, a.nav-item {
-        color: #7a7a7a;
-        font-size: 1.1rem;
-        font-weight: 500;
-      }
-    }
-  }
 
   &-title {
     font-size: 2.25em;
@@ -137,7 +112,6 @@ a {
     }
   }
 }
-
 .header-small {
   text-align: left;
   margin-bottom: .75rem;
@@ -153,15 +127,6 @@ a {
       text-decoration: none;
     }
   }
-}
-.nav {
-  align-items: stretch;
-  background-color: white;
-  display: flex;
-  min-height: 50px;
-  position: relative;
-  text-align: center;
-  z-index: 2;
 }
 
 /*--------------
@@ -278,7 +243,7 @@ a {
 
     &-date {
       color: $base-lighten-color;
-      font-size: .8rem;
+      font-size: .85rem;
       text-transform: uppercase;
     }
 
