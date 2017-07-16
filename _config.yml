@@ -6,7 +6,7 @@ author:
   youtubeUser:      false
   youtubeChannel:   false
   twitter:          iamankuragrawal
-  github:           AnkurAgrawal
+  github:           false
   stackoverflow:    false
   quora:            false
   linkedin:         iamankuragrawal
@@ -16,7 +16,7 @@ author:
   reddit:           false
   medium:           false
   tumblr:           false
-  email:            me@ankuragrawal.xyz
+  email:            false
 
 copyright:
   year:             2017
@@ -38,14 +38,29 @@ url:                "http://blog.ankuragrawal.xyz" # the base hostname & protoco
 # url:                "http://localhost:4000" # use this url when you develop
 baseurl:            "" # the subpath of your site, e.g. /blog
 
+show_dir_listing: false
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           America/Los_Angeles
-permalink:          /:year-:month-:day/:title/
+# link format for eg. /:year-:month-:day/:title/
+permalink:          /:title/
 
 # Pagination
 paginate:           5
 paginate_path:      /page:num/
+
+# Outputting
+quiet:    false
+verbose:  false
+liquid:
+  error_mode: warn
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           America/Los_Angeles
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      false
+unpublished: false
 
 # Markdown
 markdown:           kramdown
@@ -89,6 +104,6 @@ defaults:
 gems:
   - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll-admin
+  # - jekyll-admin
 
 exclude:            [vendor]

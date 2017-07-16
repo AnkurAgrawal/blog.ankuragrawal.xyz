@@ -1,7 +1,14 @@
 <header class="header nav">
   <div class="header-title nav-left">
-    <a href="{{ site.url }}{{ site.baseurl }}">{{ site.name }}</a>
+    <a class="nav-item is-brand" href="{{ site.url }}{{ site.baseurl }}">
+      <img src="assets/images/logo.svg">
+    </a>
   </div>
+  <span class="nav-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </span>
   <nav class="header-nav nav-right nav-menu">
     {% for nav in site.nav %}
     {% if nav.url contains 'http://' or nav.url contains 'https://' %}
