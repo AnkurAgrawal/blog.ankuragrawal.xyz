@@ -26,6 +26,9 @@ copyright:
 google-analytics:
   id:               "UA-102358856-2"
 
+# Google Fonts
+google_font: 'Puritan:400,700|Roboto+Mono:300,400,500|Mandali|Ubuntu+Mono'
+
 # Disqus
 disqus:
   id:               "ankuragrawal"
@@ -51,15 +54,17 @@ kramdown:
 
 # Navigation
 nav:
-  - name:           "About"
-    url:            "/about"
-  - name:           "Archive"
-    url:            "/archive"
-  - name:           "Tags"
-    url:            "/tags"
-  - name:           "Github"
-    url:            "https://github.com/AnkurAgrawal/blog.ankuragrawal.xyz"
-
+  # - name:           "Archive"
+  #   url:            "/archive"
+  # - name:           "Tags"
+  #   url:            "/tags"
+  - name:             "Portfolio"
+    url:              "http://ankuragrawal.xyz/portfolio"
+  - name:             "Blog"
+    url:              "http://blog.ankuragrawal.xyz"
+  - name:             "Photos"
+  - name:             "About"
+    url:              "http://ankuragrawal.xyz/about"
 # Sass
 sass:
   sass_dir:         _sass
@@ -81,7 +86,7 @@ defaults:
       layout:       "post"
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-admin

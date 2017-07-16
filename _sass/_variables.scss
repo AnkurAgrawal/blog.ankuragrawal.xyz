@@ -3,14 +3,15 @@
 /*--------------
   Font
   -------------- */
-$base-font: 'Spoqa Han Sans', 'Source Sans Pro', Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif;
+$base-font: "Puritan", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", 'Spoqa Han Sans', 'Source Sans Pro', Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif;
+$heading-font: "Roboto Mono", "Inconsolata", "Helvetica", Helvetica, Arial, Dotum, sans-serif;
 $code-font: Menlo, 'Ubuntu Mono', Monaco, 'Spoqa Han Sans', monospace;
 $code-gist-font: Menlo, 'Ubuntu Mono', Monaco, 'Spoqa Han Sans', monospace;
 
-$base-font-size: 18px;
-$base-font-size-sm: 14px;
+$base-font-size: 14px;
+$base-font-size-sm: 10px;
 
-$mobile-font-size: 16px;
+$mobile-font-size: 12px;
 
 
 /*--------------

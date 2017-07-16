@@ -16,6 +16,26 @@ body {
   padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font;
+  font-weight: normal;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  margin-top: 0.2em;
+  margin-bottom: 0.3em;
+  line-height: 1.5;
+  letter-spacing: -0.03em;
+  position: relative;
+}
+
+a {
+    color: #304FFE;
+    text-decoration: none;
+    line-height: inherit;
+    transition: none 86ms ease-out;
+    line-height: inherit;
+}
+
 .content-container {
   max-width: 48rem;
   padding: 5rem 1rem;
@@ -35,11 +55,55 @@ body {
   padding: 2%;
   margin-bottom: 1.5em;
 
+  &.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 1vw;
+    box-shadow: 0 0 1px rgba(0,0,0,0.3);
+
+    .nav-left{
+      align-items: stretch;
+      display: flex;
+      flex-basis: 0;
+      flex-grow: 1;
+      flex-shrink: 0;
+      justify-content: flex-start;
+      overflow: hidden;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    .nav-right{
+      align-items: stretch;
+      display: flex;
+      flex-basis: 0;
+      flex-grow: 1;
+      flex-shrink: 0;
+      justify-content: flex-end;
+    }
+
+    .nav-menu {
+      .nav-item {
+        align-items: center;
+        display: flex;
+        flex-grow: 0;
+        flex-shrink: 0;
+        justify-content: center;
+        padding: 10px;
+      }
+
+      .nav-item a, a.nav-item {
+        color: #7a7a7a;
+        font-size: 1.1rem;
+        font-weight: 500;
+      }
+    }
+  }
+
   &-title {
-    margin: 0.3em 0;
     font-size: 2.25em;
     line-height: 1.2em;
-    font-weight: 600;
 
     a {
       color: $base-color;
@@ -56,6 +120,7 @@ body {
   }
 
   &-nav {
+
     a {
       color: $oc-gray-7;
       text-transform: lowercase;
@@ -88,6 +153,15 @@ body {
       text-decoration: none;
     }
   }
+}
+.nav {
+  align-items: stretch;
+  background-color: white;
+  display: flex;
+  min-height: 50px;
+  position: relative;
+  text-align: center;
+  z-index: 2;
 }
 
 /*--------------
@@ -180,7 +254,7 @@ body {
 .list {
   &-post {
     padding: 4% 2%;
-    
+
     &:hover {
       background-color: $background-over-color;
       border-color: transparent;
