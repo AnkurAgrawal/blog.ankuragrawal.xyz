@@ -20,11 +20,9 @@ layout: default
       <div class="list-post-title">
         {{ post.title }}
       </div>
-      {% if post.description %}
       <div class="list-post-desc">
         <p>{{ post.content | strip_html | truncatewords: 40 }}</p>
       </div>
-      {% endif %}
     </a>
 
 
