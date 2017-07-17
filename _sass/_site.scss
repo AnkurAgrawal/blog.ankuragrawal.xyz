@@ -58,7 +58,7 @@ a {
 
 .content-container {
   max-width: 48rem;
-  padding: 6rem 1rem 2rem;
+  padding: 7rem 1rem 2rem;
   margin-left:  auto;
   margin-right: auto;
 
@@ -151,14 +151,13 @@ a {
   &-title {
     margin-top: 0rem;
     margin-bottom: 0.3rem;
-    font-size: 2.25em;
     line-height: 1.2em;
-    font-weight: 600;
   }
 
   &-date {
+    font-family: $heading-font;
     margin-bottom: .5rem;
-    color: $oc-gray-8;
+    color: $base-lighten-color;
     font-size: .75rem;
     text-transform: uppercase;
   }
