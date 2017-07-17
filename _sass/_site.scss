@@ -42,8 +42,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-style: normal;
   text-rendering: optimizeLegibility;
-  margin-top: 0.2em;
-  margin-bottom: 0.3em;
+  margin: 0;
   line-height: 1.5;
   letter-spacing: -0.03em;
   position: relative;
@@ -236,12 +235,10 @@ a {
     }
 
     &-title {
-      margin-bottom: .3rem;
-      font-size : 1.8rem;
-      font-weight: 600;
     }
 
     &-date {
+      font-family: $heading-font;
       color: $base-lighten-color;
       font-size: .85rem;
       text-transform: uppercase;

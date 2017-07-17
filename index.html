@@ -17,9 +17,9 @@ layout: default
       <div class="list-post-date">
         <time>{{ post.date | date_to_string }}</time>
       </div>
-      <div class="list-post-title">
+      <h2 class="list-post-title">
         {{ post.title }}
-      </div>
+      </h2>
       <div class="list-post-desc">
         <p>{{ post.content | strip_html | truncatewords: 40 }}</p>
       </div>
