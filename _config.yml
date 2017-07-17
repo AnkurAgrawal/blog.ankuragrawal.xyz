@@ -1,6 +1,8 @@
 # Basic
 name:               "ankur agrawal"
-tagline:            "an irrational mind"
+title:               "ankur agrawal"
+description:        "an irrational mind"
+logo:               "/assets/images/logo.svg"
 
 author:
   facebook:         false
