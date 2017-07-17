@@ -1,5 +1,6 @@
 # Basic
-name:               "Ankur Agrawal"
+name:               "ankur agrawal"
+tagline:            "an irrational mind"
 
 author:
   facebook:         false
@@ -20,7 +21,7 @@ author:
 
 copyright:
   year:             2017
-  name:             Ankur Agrawal
+  name:             ankur agrawal
 
 # Google-analytics
 google-analytics:
