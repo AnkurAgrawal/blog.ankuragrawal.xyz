@@ -19,11 +19,11 @@ I think they are all very valid questions and if I can't find asnwers to these q
 
 I have been trying to come up with a solid reason for 1.5 years now and, honestly, I couldn't. I started by listing down what I think is the reason behind my decision of pursuing graduate studies. Came up with this:
 
-![My reasons for applying graduate school]({{ site.url }}/assets/reasons.jpg)
+![My reasons for applying graduate school]({{ site.url }}/assets/images/reasons.jpg)
 
 I even tried making a list of pros and cons for job vs grad school. Want to know what I come up with?
 
-![List of pros and cons for job vs grad school]({{ site.url }}/assets/pros-n-cons.jpg)
+![List of pros and cons for job vs grad school]({{ site.url }}/assets/images/pros-n-cons.jpg)
 
 I realized it's not enough. None of the points/problems were strong enough that couldn't be fixed by staying in the industry and require making a life changing decision. So, I started doing what a designer would do. Find out the root cause of the question and then try to find answers. I went back in time to the point when I first started thinking about getting PhD and worked my way up from there to reach a conclusion. I wrote this eassy to explain why I have to make this decision and put, yet another, stepping stone in my career.
 
